@@ -47,7 +47,7 @@
       </main>
       
       <footer>
-          <p>#visitSEDONA</p>
+          <p aria-label="хештег visit Sedona">#visitSEDONA</p>
           
           <ul class="social">
               <li><a href="#" aria-label="Седона в Твиттер">Twitter</a></li>
@@ -67,21 +67,27 @@
           <form action="https://echo.htmlacademy.ru" method="post">
               <p>
                 <label for="arrival">Дата заезда:</label>
-                <input id="arrival" type="date" name="arrival-date">
+                <input id="arrival" type="text" name="arrival-date">
+                <button class="calendar" aria-label="открыть календарь"></button>
               </p>
               <p>
                 <label for="departure">Дата выезда:</label>
-                <input id="departure" type="date" name="departure-date">
+                <input id="departure" type="text" name="departure-date">
+                <button class="calendar" aria-label="открыть календарь"></button>
               </p>
               <p>
                 <label for="adult">Взрослые:</label>
-                <input id="adult" type="number" name="adult-number">
+                <button class="minus" aria-label="минус">-</button>
+                <input id="adult" type="text" name="adult-number">
+                <button class="plus">+</button>
               </p>
               <p>
                 <label for="children">Дети:</label>
-                <input id="children" type="number" name="children-number">
+                <button class="minus" aria-label="минус">-</button>
+                <input id="children" type="text" name="children-number">
+                <button class="plus">+</button>
               </p>
-              <a class="button" href="inner.html">Найти</a>
+              <button class="popup-search-button">Найти</button>
           </form>
       </section> 
    <!-- <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p> -->
