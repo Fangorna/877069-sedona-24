@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
       <header>
@@ -35,7 +38,7 @@
           
           <section class="search-hotel">
             <h2 class="visually-hidden">ПОИСК ГОСТИНИЦЫ В седоне</h2>
-            <p>Заинтересовались?</p>
+            <span>Заинтересовались?</span>
             <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
             <button class="search">ПОИСК ГОСТИНИЦЫ В седоне</button>
           </section>
@@ -46,8 +49,8 @@
           </section>
       </main>
       
-      <footer>
-          <p aria-label="хештег visit Sedona">#visitSEDONA</p>
+      <footer class="footer-nav">
+          <p class="hashtag" aria-label="хештег visit Sedona">#visitSEDONA</p>
           
           <ul class="social">
               <li><a href="#" aria-label="Седона в Твиттер">Twitter</a></li>
@@ -57,7 +60,7 @@
           
           <p>
               <span>Website by</span>
-              <a href="https://htmlacademy.ru/intensive/htmlcss">
+              <a class="html-academy" href="https://htmlacademy.ru/intensive/htmlcss">
                   <img src="img/academy.svg" alt="logotype - html academy" width="115" height="40">
               </a>
           </p>
@@ -67,24 +70,24 @@
           <form action="https://echo.htmlacademy.ru" method="post">
               <p>
                 <label for="arrival">Дата заезда:</label>
-                <input id="arrival" type="text" name="arrival-date">
+                <input id="arrival" type="text" name="arrival-date" value="24 апреля 2017">
                 <button class="calendar" aria-label="открыть календарь"></button>
               </p>
               <p>
                 <label for="departure">Дата выезда:</label>
-                <input id="departure" type="text" name="departure-date">
+                <input id="departure" type="text" name="departure-date" value="4 июля 2017">
                 <button class="calendar" aria-label="открыть календарь"></button>
               </p>
               <p>
                 <label for="adult">Взрослые:</label>
                 <button class="minus" aria-label="минус">-</button>
-                <input id="adult" type="text" name="adult-number">
+                <input id="adult" type="text" name="adult-number" value="2">
                 <button class="plus">+</button>
               </p>
               <p>
                 <label for="children">Дети:</label>
                 <button class="minus" aria-label="минус">-</button>
-                <input id="children" type="text" name="children-number">
+                <input id="children" type="text" name="children-number" value="0">
                 <button class="plus">+</button>
               </p>
               <button class="popup-search-button">Найти</button>

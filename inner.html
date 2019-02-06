@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>Выбор отеля</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
 <body>
     <header>
@@ -44,10 +47,10 @@
                     <label for="apartment">Апартаменты</label>
                 </fieldset>
                 
-                <p class="prise-range">
-                    <label for="price">Стоимость в сутки (Р):</label>
-                    <input type="text" name="from" value="от 0">
-                    <input type="text" name="to" value="до 3000">
+                <p class="price-range">
+                    <span class="day">Стоимость в сутки (Р):</span>
+                    <b>от</b><input type="text" name="from" value="0">
+                    <b>до</b><input type="text" name="to" value="3000">
                     <span class="range"></span>
                     <button type="submit">Показать</button>
                 </p>
@@ -60,14 +63,14 @@
             <ul class="hotels-list">
                 <li>
                     <img class="hotels-foto" src="img/hotel-1.jpg" alt="Amara Resort & Spa" width="135" height="90">
-                    <h3>Amara Resort & Spa</h3>
+                    <h3><a class="hotels-name" href="#">Amara Resort & Spa</a></h3>
                     <p class="hotel-type-price">
                         <span>Гостиница</span>
                         <span>От 4000 Р.</span>
                     </p>
                     <a class="button-more" href="#">Подробнее</a>
                     <a class="button-book" href="#">Забронировать</a>
-                    <span>Рейтинг: 8,5</span>
+                    <span class="hotel-rating">Рейтинг: 8,5</span>
                     <ul class="stars" aria-label="4 звезды">
                         <li></li>
                         <li></li>
@@ -78,14 +81,14 @@
                 
                 <li>
                     <img class="hotels-foto" src="img/hotel-2.jpg" alt="Desert Quail Inn" width="135" height="90">
-                    <h3>Desert Quail Inn</h3>
+                    <h3><a class="hotels-name" href="#">Desert Quail Inn</a></h3>
                     <p class="hotel-type-price">
                         <span>Мотель</span>
                         <span>От 3000 Р.</span>
                     </p>
                     <a class="button-more" href="#">Подробнее</a>
                     <a class="button-book" href="#">Забронировать</a>
-                    <span>Рейтинг: 8,9</span>
+                    <span class="hotel-rating">Рейтинг: 8,9</span>
                     <ul class="stars" aria-label="3 звезды">
                         <li></li>
                         <li></li>
@@ -95,14 +98,14 @@
                 
                 <li>
                     <img class="hotels-foto" src="img/hotel-3.jpg" alt="Villas at Poco Diablo" width="135" height="90">
-                    <h3>Villas at Poco Diablo</h3>
+                    <h3><a class="hotels-name" href="#">Villas at Poco Diablo</a></h3>
                     <p class="hotel-type-price">
                         <span>Апартаменты</span>
                         <span>От 2000 Р.</span>
                     </p>
                     <a class="button-more" href="#">Подробнее</a>
                     <a class="button-book" href="#">Забронировать</a>
-                    <span>Рейтинг: 9,2</span>
+                    <span class="hotel-rating">Рейтинг: 9,2</span>
                     <ul class="stars" aria-label="2 звезды">
                         <li></li>
                         <li></li>
@@ -112,21 +115,21 @@
         </section>
     </main>
     
-    <footer>
-        <p aria-label="хештег visit Sedona">#visitSEDONA</p>
+    <footer class="footer-nav">
+          <p class="hashtag" aria-label="хештег visit Sedona">#visitSEDONA</p>
           
-        <ul class="social">
+          <ul class="social">
               <li><a href="#" aria-label="Седона в Твиттер">Twitter</a></li>
               <li><a href="#" aria-label="Седона в Фейсбук">FB</a></li>
               <li><a href="#" aria-label="Седона в Ютуб">YouTube</a></li>
           </ul>
           
-        <p>
-            <span>Website by</span>
-            <a href="https://htmlacademy.ru/intensive/htmlcss">
-                <img src="img/academy.svg" alt="logotype - html academy" width="115" height="40">
-            </a>
-        </p>
+          <p>
+              <span>Website by</span>
+              <a class="html-academy" href="https://htmlacademy.ru/intensive/htmlcss">
+                  <img src="img/academy.svg" alt="logotype - html academy" width="115" height="40">
+              </a>
+          </p>
       </footer>
     </body>
 </html>
