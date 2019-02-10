@@ -24,6 +24,13 @@ a {
     text-decoration: none;
 }
 
+.main-menu {
+    width: 1200px;
+    height: 56px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .main-menu a {
     color: #000000;
 }
@@ -37,16 +44,34 @@ a {
     color: rgba(0, 0, 0, 0.3);
 }
 
+.main-menu .logo {
+    position: absolute;
+    left: 690px;
+}
+
 .main-menu ul {
+    display: flex;
+    justify-content: space-between;
     list-style: none;
 }
 
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .heading {
+    height: 508px;
     text-align: center;
     background-color: #eeeeee;
-    background-image: url("/./img/intro-mask.svg"), url("/./img/background.jpg");
+    background-image: url("../img/intro-mask.svg"), url("../img/background.jpg");
     background-repeat: no-repeat, no-repeat;
-    background-position: bottom center, top center;
+    background-position: 0px 451px, 50% 20%;
+}
+
+.heading .welcome {
+    margin-top: 76px;
 }
 
 .city {
@@ -96,11 +121,20 @@ a {
     background-color: #503e33;
 }
 
+.footer-nav {
+    display: flex;
+    justify-content: space-around;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .footer-nav .hashtag {
     font-size: 21px;
 }
 
 .footer-nav .social {
+    display: flex;
     list-style: none;
 }
 
@@ -140,7 +174,7 @@ a {
 }
 
 .popup-search .calendar {
-    background-image: url("/./img/calendar.svg");
+    background-image: url("../img/calendar.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -173,7 +207,7 @@ a {
 .filters {
     color: #ffffff;
     background-color: #81b3d2;
-    background-image: url(/img/filter-background.jpg);
+    background-image: url(../img/filter-background.jpg);
     background-repeat: no-repeat;
     background-position: top center;
 }
@@ -217,7 +251,12 @@ a {
     background-color: #ffffff;
 }
 
-.hotels-list,
+.hotels-list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
 .stars {
     list-style: none;
 }
@@ -285,6 +324,6 @@ a {
 .stars li {
     height: 17px;
     width: 18px;
-    background-image: url("/img/star.svg");
+    background-image: url("../img/star.svg");
     background-repeat: no-repeat;
 }
