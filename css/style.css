@@ -13,7 +13,9 @@ body {
 
 .visually-hidden {
     position: absolute;
+    
     clip: rect(0 0 0 0);
+    
     width: 1px;
     height: 1px;
     margin: -1px;
@@ -32,6 +34,7 @@ img {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    
     box-shadow: 0px 7px 15px 0 rgba(0, 1, 1, 0.15);
 }
 
@@ -60,6 +63,7 @@ img {
     left: 50%;
     right: 50%;
     top: 0;
+    
     transform: translateX(-50%);
 }
 
@@ -68,9 +72,11 @@ img {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    
     height: 56px;
     margin: 0;
     padding: 0 72px;
+    
     list-style: none;
 }
 
@@ -78,13 +84,16 @@ img {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    
     background-color: #ffffff;
 }
 
 .heading {
-    margin-bottom: 58px;
     height: 508px;
+    margin-bottom: 58px;
+    
     text-align: center;
+    
     background-color: #eeeeee;
     background-image: url("../img/intro-mask.svg"), url("../img/background.jpg");
     background-repeat: no-repeat, no-repeat;
@@ -96,14 +105,16 @@ img {
 }
 
 .city {
-    padding-left: 355px;
-    padding-right: 355px;
     margin-bottom: 52px;
+    padding-right: 355px;
+    padding-left: 355px;
+    
     text-align: center;
 }
 
 .city h2 {
     margin-bottom: 30px;
+    
     font-size: 21px;
 }
 
@@ -113,6 +124,7 @@ img {
 
 .reasons {
     margin-bottom: 50px;
+    
     line-height: 21px;
     text-align: center;
 }
@@ -126,8 +138,9 @@ img {
     margin: 0;
     margin-bottom: 20px;
     padding-top: 45px;
-    padding-left: 122px;
     padding-right: 122px;
+    padding-left: 122px;
+    
     font-weight: bold;
     font-size: 21px;
 }
@@ -140,12 +153,12 @@ img {
 
 .reason-1,
 .reason-2 {
-    max-height: 256px;
     max-width: 400px;
+    max-height: 256px;
     
     color: #ffffff;
-    background-color: #81b3d2;
     
+    background-color: #81b3d2; 
 }
 
 .reason-1 p,
@@ -155,8 +168,8 @@ img {
 
 .hotels-food div {
     position: relative;
-    min-height: 324px;
     max-width: 400px;
+    min-height: 324px;
 }
 
 .hotels-food h3 {
@@ -170,8 +183,10 @@ img {
     position: absolute;
     left: 163px;
     top: 53px;
+    
     width: 75px;
     height: 76px;
+    
     background-image: url("../img/icon-1.svg");
     background-repeat: no-repeat;
 }
@@ -183,12 +198,13 @@ img {
 .reason-souvenir h3::before {
     left: 167px;
     top: 48px;
+    
     background-image: url("../img/icon-2.svg");
 }
 
 .tourism div {
-    min-height: 256px;
     max-width: 400px;
+    min-height: 256px;
     
     background-color: #eeeeee; 
 }
@@ -203,15 +219,17 @@ img {
 
 .search-hotel b {
     margin-bottom: 35px;
+    
     font-size: 30px;
     line-height: 36px;
 }
 
 .search-hotel p {
     margin-top: 25px;
-    margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 45px;
+    margin-left: 10px;
+    
     line-height: 24px;
     color: #333333;
 }
@@ -219,10 +237,12 @@ img {
 .search-hotel .search {
     width: 568px;
     height: 86px;
+    
     font-size: 21px;
     font-weight: bold;
     text-transform: inherit;
     color: #ffffff;
+    
     background-color: #766357;
     border: none;
 }
@@ -234,6 +254,7 @@ img {
 
 .search-hotel .search:active {
     color: rgba(255, 255, 255, 0.3);
+    
     background-color: #503e33;
 }
 
@@ -245,6 +266,7 @@ img {
 .map-frame {
     width: 1200px;
     height: 593px;
+    
     border: 0;
 }
 
@@ -252,24 +274,27 @@ img {
     position: absolute;
     left: 0;
     bottom: 0;
+    
     opacity: 0.9;
 }
 
 .footer-nav {
     height: 128px;
+    
     background-color: #ffffff;
-  
 }
 
 .footer-wrap {
     display: flex;
     justify-content: space-between;
-    padding-left: 132px;
+    
     padding-right: 101px;
+    padding-left: 132px;
 }
 
 .footer-nav .hashtag {
     margin-top: 45px;
+    
     font-size: 21px;
 }
 
@@ -277,9 +302,11 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    
     width: 150px;
     margin-top: 36px;
     padding-left: 35px;
+    
     list-style: none;
 }
 
@@ -287,8 +314,10 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    
     width: 46px;
     height: 48px;
+    
     background-color: #81b3d2;
 }
 
@@ -309,12 +338,15 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
     width: 200px;
+    
     margin-top: 35px;
 }
 
 .html-academy {
     display: block;
+    
     width: 115px;
     height: 41px;
 }
@@ -345,36 +377,40 @@ img {
 }
 
 .popup-search {
-    display: none;
-    z-index: 2;
     position: absolute;
     left: 316px;
+    
+    display: none;
+    z-index: 2;
+    
     width: 458px;
     height: 340px;
+    
     padding-top: 55px;
-    padding-left: 57px;
     padding-right: 55px;
+    padding-left: 57px;
+  
     font-weight: bold;
 }
 
 .popup-show {
     display: block;
+    
     animation: show 1s;
 }
 
 .popup-search form {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    
+    justify-content: space-between; 
 }
 
 .popup-search p {
-    margin: 0 0 30px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    
+    margin: 0 0 30px 0;
 }
 
 .popup-search .together {
@@ -415,10 +451,12 @@ img {
 .popup-search .calendar {
     width: 38px;
     height: 38px;
+    
     font-size: 25px;
     font-weight: bold;
-    background-color: #f2f2f2;
     color: #cacaca;
+    
+    background-color: #f2f2f2;
     border: none;
 }
 
@@ -449,16 +487,19 @@ img {
 
 .popup-search-button {
     display: block;
+    
     width: 456px;
     height: 58px;
-
-    margin-bottom: 55px;
+    
     margin-top: 23px;
+    margin-bottom: 55px;
+  
     font-weight: bold;
     font-size: 21px;
     text-align: center;
     text-transform: inherit;
     color: #ffffff;
+    
     background-color: #81b3d2;
     border: none;
 }
@@ -470,6 +511,7 @@ img {
 
 .popup-search-button:active {
     color: rgba(255, 255, 255, 0.3);
+    
     background-color: #5496bd;
 }
 
@@ -482,11 +524,14 @@ img {
 
 .filters {
     height: 190px;
+    
     margin: 0;
     padding-top: 27px;
-    padding-left: 70px;
     padding-right: 73px;
+    padding-left: 70px;
+    
     color: #ffffff;
+    
     background-color: #81b3d2;
     background-image: url(../img/filter-background.jpg);
     background-repeat: no-repeat;
@@ -510,17 +555,20 @@ img {
 .filters-form fieldset {
     display: flex;
     flex-direction: column;
+    
     padding: 0;
+    
     border: none;
 }
 
 .filters-form label {
     position: relative;
+    
     display: block;
+    
     margin-top: 25px;
     margin-bottom: 22px;
     padding-left: 42px;
-
 }
 
 .infrastructure input[type="checkbox"],
@@ -534,9 +582,12 @@ img {
     position: absolute;
     top: 0;
     left: 0;
+    
     display: block;
+    
     width: 27px;
     height: 23px;
+    
     margin-right: 17px;
 
     background-image: url("../img/checkbox-off.svg");
@@ -549,6 +600,7 @@ img {
     position: absolute;
     top: 0;
     left: 0;
+    
     background-image: url("../img/checkbox-on.svg");
     background-repeat: no-repeat;
 }
@@ -572,9 +624,13 @@ img {
 
 .price-control {
     position: relative;
+    
     height: 32px;
+    
     margin-bottom: 20px;
+    
     font-size: 0px;
+    
     border: 2px solid #ffffff;
     border-radius: 2px;
 }
@@ -584,41 +640,50 @@ img {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    
     width: 2px;
     height: 22px;
-
-    background: #ffffff;
+    
+    background: #ffffff;  
+    
+    transform: translate(-50%, -50%);
 }
 
 .price-control label {
     display: inline-block;
-    margin: 0;
+    
     width: 90px;
-    font-size: 14px;
-    padding-left: 60px;
-    padding-right: 6px;
+    
+    margin: 0;
     padding-top: 5px;
+    padding-right: 6px;
+    padding-left: 60px;
+    
+    font-size: 14px;
     vertical-align: middle;
 }
 
 .price-range input {
     width: 50px;
+    
     margin: 0;
     
     font-size: 14px;
     color: #ffffff;
+    
     background-color: rgba(0, 0, 0, 0);
     border: none;
 }
 
 .price-range b {
     margin-bottom: 10px;
+    
     font-size: 16px;
 }
 
 .range-control {
     position: relative;
+    
     margin-bottom: 32px;
 }
 
@@ -638,6 +703,7 @@ img {
 .range {
     position: absolute;
     top: -9px;
+    
     width: 4px;
     height: 4px;
 
@@ -662,13 +728,14 @@ img {
 .price-range button {
     width: 137px;
     height: 35px;
+    
     margin: 0 auto;
     
     font-size: 14px;
-
     line-height: 21px;
     text-transform: inherit;
     color: #ffffff;
+    
     background-color: rgba(0, 0, 0, 0);
     border: 2px solid #ffffff;
     border-radius: 2px;
@@ -677,6 +744,7 @@ img {
 .price-range button:hover,
 .price-range button:focus {
     color: #000000;
+    
     background-color: #ffffff;
 }
 
@@ -685,10 +753,12 @@ img {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    
     height: 86px;
     margin: 0;
-    padding-left: 72px;
+    
     padding-right: 73px;
+    padding-left: 72px;
     
     box-shadow: 0 1px 0 0 rgba(0, 1, 1, 0.2);
 }
@@ -697,19 +767,23 @@ img {
     display: flex;
     align-items: center;
     flex-grow: 1;
+    
     line-height: 18px;
 }
 
 .results h2 {
     width: 164px;
-    font-size: 21px;
+    
     margin: 0px;
+    
+    font-size: 21px; 
 }
 
 .results-sorting {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
+    
     padding-left: 40;
 }
 
@@ -726,6 +800,7 @@ img {
     font-size: 12px;
     line-height: 18px;
     color: rgba(0, 0, 0, 0.3);
+    
     border-bottom: 1px dotted #81b3d2;
 }
 
@@ -744,13 +819,16 @@ img {
 .results-current a:focus,
 .results-current a:active {
     color: #81b3d2;
+    
     border-bottom: none;
 }
 
 .arrows {
     display: flex;
     justify-content: space-between;
+    
     width: 32px;
+    
     list-style: none;
 }
 
@@ -770,9 +848,11 @@ img {
 .hotels-list {
     display: flex;
     flex-direction: column;
-    list-style: none;
+    
     margin: 0;
     padding: 0;
+    
+    list-style: none;
 }
 
 .hotels-list .hotel {
@@ -782,9 +862,10 @@ img {
     height: 91px;
     
     padding-top: 30px;
+    padding-right: 71px;
     padding-bottom: 30px;
     padding-left: 72px;
-    padding-right: 71px;
+    
     box-shadow: 0 1px 0 0 rgba(0, 1, 1, 0.2);  
 }
 
@@ -796,8 +877,8 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
     flex-grow: 1;
+    
     max-height: 90px;
     
     margin-left: 30px;   
@@ -810,17 +891,19 @@ img {
 }
 
 .hotel-more {
-    margin: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    
+    margin: 0;
 }
 
 .hotel-book {
-    margin: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    
+    margin: 0;
 }
 
 .hotels-list-rating {
@@ -828,26 +911,32 @@ img {
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-end;
+    
     max-height: 90px;
 }
 
 .stars {
     display: flex;
+    
     list-style: none;
 }
 
 .hotel-rating {
     width: 110px;
     height: 27px;
+    
     text-align: center;
     color: #666666;
+    
     background-color: #f2f2f2;
 }
 
 .stars li {
-    height: 17px;
     width: 18px;
+    height: 17px;
+
     margin-left: 6px;
+    
     background-image: url("../img/star.svg");
     background-repeat: no-repeat;
 }
@@ -856,6 +945,7 @@ img {
 .hotels-list h3 {
     margin: 0;
     padding: 0;
+    
     line-height: 16px;
     font-size: 21px;
 }
@@ -880,13 +970,14 @@ img {
 .button-more {
     width: 110px;
     height: 27px;
-    text-align: center;
-   
+    
     margin-right: 6px;
-
-    line-height: 27px; /*21px*/
+    
     font-weight: bold;
+    text-align: center;
+    line-height: 27px;
     color: #ffffff;
+    
     background-color: #81b3d2;
 }
 
@@ -897,17 +988,19 @@ img {
 
 .button-more:active {
     color: rgba(255, 255, 255, 0.3);
+    
     background-color: #5496bd;
 }
 
 .button-book {
     width: 142px;
     height: 27px;
-    text-align: center;
-    
-    line-height: 27px;  /*21px*/
+        
     font-weight: bold;
+    text-align: center;
+    line-height: 27px;  
     color: #ffffff;
+    
     background-color: #766357;
 }
 
@@ -918,6 +1011,7 @@ img {
 
 .button-book:active {
     color: rgba(255, 255, 255, 0.3);
+    
     background-color: #503e33;
 }
 
