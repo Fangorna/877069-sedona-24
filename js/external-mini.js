@@ -1,0 +1,1 @@
+var link=document.querySelector(".search"),popup=document.querySelector(".popup-search");popup.classList.remove("popup-no-js"),link.addEventListener("click",function(e){e.preventDefault(),popup.classList.toggle("popup-show")});
